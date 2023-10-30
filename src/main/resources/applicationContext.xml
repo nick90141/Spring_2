@@ -1,0 +1,13 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="carBean" class="Task_2.Car">
+        <constructor-arg name="make" value="Toyota"/>
+        <constructor-arg name="model" value="Camry"/>
+        <constructor-arg name="year" value="2023"/>
+        <property name="make" value="Toyota"/>
+        <property name="model" value="Camry"/>
+    </bean>
+
+</beans>
